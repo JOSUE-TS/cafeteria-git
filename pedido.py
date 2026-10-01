@@ -1,6 +1,10 @@
 def calcular_total(subtotal):
+ feature/descuento-estudiante
+    descuento_estudiante = subtotal * 0.10
+    total = subtotal - descuento_estudiante
     costo_delivery = 5.00
     total = subtotal + costo_delivery
+main
     return total
 
 
